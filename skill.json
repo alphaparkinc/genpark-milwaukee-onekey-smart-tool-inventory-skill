@@ -1,0 +1,37 @@
+{
+  "name": "genpark-milwaukee-onekey-smart-tool-inventory-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Milwaukee Tool M18 FUEL with ONE-KEY smart cordless hardware, BLE proximity tracking, torque calibration & jobsite lockout.",
+  "category": "AI Gadgets",
+  "author": "AlphaPark",
+  "tags": [
+    "milwaukee-tool",
+    "ai-gadgets",
+    "smart-hardware",
+    "one-key",
+    "ble-tracking",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "track_tool_location",
+      "description": "Locate smart power tools via BLE mesh beacon network and geofencing."
+    },
+    {
+      "name": "configure_torque_profile",
+      "description": "Remotely program repeatable torque limits (ft-lbs) and RPM curve."
+    },
+    {
+      "name": "enforce_security_lockout",
+      "description": "Lock or unlock stolen/missing tools rendering motors inoperable."
+    },
+    {
+      "name": "fetch_fleet_telematics",
+      "description": "Audit trigger cycles, operating temperature, and maintenance schedules."
+    },
+    {
+      "name": "run_benchmark_smart_tools",
+      "description": "Run comprehensive smart hardware integration benchmark."
+    }
+  ]
+}
